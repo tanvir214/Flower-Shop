@@ -1,0 +1,61 @@
+/* common */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.all-p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 32px 0;
+}
+
+.btn-primary {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 18px 25px;
+    border: none;
+}
+
+/* header */
+
+header {
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-title {
+    color: #272727;
+    font-size: 75px;
+    font-weight: 800;
+    margin-top: 60px;
+}
+
+.header-cont {
+    width: 50%;
+}
+
+.header-cont img {
+    width: 100%;
+    padding-top: 160px;
+}
