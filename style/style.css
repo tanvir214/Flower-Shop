@@ -7,7 +7,8 @@
 }
 
 .header,
-.featured {
+.featured,
+.icon, .deal-container, .container {
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -94,7 +95,6 @@ header {
 
 .featured-cont {
     width: 33.33%;
-
 }
 
 .featured-img {
@@ -124,4 +124,70 @@ header {
     padding: 20px 0;
     display: block;
     text-align: center;
+}
+
+
+/* icon */
+.icon {
+    display: flex;
+    justify-content: space-around;
+    gap: 90px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-top: 100px;
+    padding: 70px 0px;
+}
+
+.icon-cont {
+    width: 33.33%;
+    display: block;
+    text-align: center;
+}
+
+.icon-text {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 12px;
+}
+
+/* deal */
+.deal {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 100px;
+}
+
+.deal-container {
+    display: flex;
+    justify-content: spacce-around;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.deal-cont {
+    width: 50%;
+    display: block;
+    text-align: center;
+}
+
+/* instagram */
+
+.insta {
+    margin: 90px 0;
+}
+
+.insta-conatiner {
+ text-align: center;
+}
+
+.insta-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.insta-box img {
+    width: 25%;
 }
