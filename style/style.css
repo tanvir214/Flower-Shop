@@ -8,7 +8,9 @@
 
 .header,
 .featured,
-.icon, .deal-container, .container {
+.icon,
+.deal-container,
+.container {
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -73,6 +75,10 @@ header {
 .header-cont img {
     width: 100%;
     padding-top: 160px;
+}
+
+.color-pink {
+    color: #E55473
 }
 
 /* featured */
@@ -178,7 +184,7 @@ header {
 }
 
 .insta-conatiner {
- text-align: center;
+    text-align: center;
 }
 
 .insta-box {
@@ -190,4 +196,60 @@ header {
 
 .insta-box img {
     width: 25%;
+}
+
+/* subscribe */
+.subs-cont {
+    background-image: url("../asset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    margin-bottom: 100px;
+}
+
+.subs-cont p {
+    padding: 20px 0;
+}
+
+.subs-form input[type="email"] {
+    width: 40%;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    margin-right: 5px;
+}
+
+
+/* footer */
+footer {
+    background-color: #111010;
+    text-align: center;
+    padding: 120px 0;
+    color: #fff;
+}
+
+.footer-title {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-p {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 25px 0;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.copy {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 14px;
+    font-weight: 400;
 }
